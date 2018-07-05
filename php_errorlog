@@ -1,0 +1,336 @@
+[21-Aug-2017 09:22:35 CST6CDT] Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Number of opening '[' and closing ']' does not match
+File: /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteParser/Std.php
+Line: 35
+Trace: #0 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteCollector.php(33): FastRoute\RouteParser\Std->parse('/documents[/{pa...')
+#1 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/documents[/{pa...', 'route10')
+#2 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/functions.php(24): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#3 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#4 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#5 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(508): Slim\Router->dispatch(Object(Slim\Http\Request))
+#6 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(432): Slim\App->dispatchRouterAndPrepareRoute(Object(Slim\Http\Request), Object(Slim\Router))
+#7 /home/appsfor9/public_html/shadowforms-apis/index.php(9): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#9 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#12 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 /home/appsfor9/public_html/shadowforms-apis/index.php(39): Slim\App->run()
+#16 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[21-Aug-2017 09:22:36 CST6CDT] Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Number of opening '[' and closing ']' does not match
+File: /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteParser/Std.php
+Line: 35
+Trace: #0 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteCollector.php(33): FastRoute\RouteParser\Std->parse('/documents[/{pa...')
+#1 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/documents[/{pa...', 'route10')
+#2 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/functions.php(24): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#3 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#4 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#5 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(508): Slim\Router->dispatch(Object(Slim\Http\Request))
+#6 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(432): Slim\App->dispatchRouterAndPrepareRoute(Object(Slim\Http\Request), Object(Slim\Router))
+#7 /home/appsfor9/public_html/shadowforms-apis/index.php(9): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#9 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#12 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 /home/appsfor9/public_html/shadowforms-apis/index.php(39): Slim\App->run()
+#16 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[21-Aug-2017 09:22:38 CST6CDT] Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Number of opening '[' and closing ']' does not match
+File: /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteParser/Std.php
+Line: 35
+Trace: #0 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteCollector.php(33): FastRoute\RouteParser\Std->parse('/documents[/{pa...')
+#1 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/documents[/{pa...', 'route10')
+#2 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/functions.php(24): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#3 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#4 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#5 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(508): Slim\Router->dispatch(Object(Slim\Http\Request))
+#6 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(432): Slim\App->dispatchRouterAndPrepareRoute(Object(Slim\Http\Request), Object(Slim\Router))
+#7 /home/appsfor9/public_html/shadowforms-apis/index.php(9): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#9 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#12 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 /home/appsfor9/public_html/shadowforms-apis/index.php(39): Slim\App->run()
+#16 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[21-Aug-2017 09:22:38 CST6CDT] Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Number of opening '[' and closing ']' does not match
+File: /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteParser/Std.php
+Line: 35
+Trace: #0 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteCollector.php(33): FastRoute\RouteParser\Std->parse('/documents[/{pa...')
+#1 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/documents[/{pa...', 'route10')
+#2 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/functions.php(24): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#3 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#4 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#5 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(508): Slim\Router->dispatch(Object(Slim\Http\Request))
+#6 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(432): Slim\App->dispatchRouterAndPrepareRoute(Object(Slim\Http\Request), Object(Slim\Router))
+#7 /home/appsfor9/public_html/shadowforms-apis/index.php(9): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#9 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#12 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 /home/appsfor9/public_html/shadowforms-apis/index.php(39): Slim\App->run()
+#16 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[21-Aug-2017 09:22:43 CST6CDT] Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Number of opening '[' and closing ']' does not match
+File: /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteParser/Std.php
+Line: 35
+Trace: #0 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteCollector.php(33): FastRoute\RouteParser\Std->parse('/documents[/{pa...')
+#1 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/documents[/{pa...', 'route10')
+#2 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/functions.php(24): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#3 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#4 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#5 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(508): Slim\Router->dispatch(Object(Slim\Http\Request))
+#6 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(432): Slim\App->dispatchRouterAndPrepareRoute(Object(Slim\Http\Request), Object(Slim\Router))
+#7 /home/appsfor9/public_html/shadowforms-apis/index.php(9): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#9 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#12 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 /home/appsfor9/public_html/shadowforms-apis/index.php(39): Slim\App->run()
+#16 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[21-Aug-2017 09:22:43 CST6CDT] Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Number of opening '[' and closing ']' does not match
+File: /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteParser/Std.php
+Line: 35
+Trace: #0 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteCollector.php(33): FastRoute\RouteParser\Std->parse('/documents[/{pa...')
+#1 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/documents[/{pa...', 'route10')
+#2 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/functions.php(24): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#3 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#4 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#5 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(508): Slim\Router->dispatch(Object(Slim\Http\Request))
+#6 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(432): Slim\App->dispatchRouterAndPrepareRoute(Object(Slim\Http\Request), Object(Slim\Router))
+#7 /home/appsfor9/public_html/shadowforms-apis/index.php(9): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#9 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#12 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 /home/appsfor9/public_html/shadowforms-apis/index.php(39): Slim\App->run()
+#16 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[21-Aug-2017 09:22:44 CST6CDT] Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Number of opening '[' and closing ']' does not match
+File: /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteParser/Std.php
+Line: 35
+Trace: #0 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteCollector.php(33): FastRoute\RouteParser\Std->parse('/documents[/{pa...')
+#1 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/documents[/{pa...', 'route10')
+#2 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/functions.php(24): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#3 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#4 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#5 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(508): Slim\Router->dispatch(Object(Slim\Http\Request))
+#6 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(432): Slim\App->dispatchRouterAndPrepareRoute(Object(Slim\Http\Request), Object(Slim\Router))
+#7 /home/appsfor9/public_html/shadowforms-apis/index.php(9): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#9 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#12 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 /home/appsfor9/public_html/shadowforms-apis/index.php(39): Slim\App->run()
+#16 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[21-Aug-2017 09:22:44 CST6CDT] Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Number of opening '[' and closing ']' does not match
+File: /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteParser/Std.php
+Line: 35
+Trace: #0 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteCollector.php(33): FastRoute\RouteParser\Std->parse('/documents[/{pa...')
+#1 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/documents[/{pa...', 'route10')
+#2 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/functions.php(24): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#3 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#4 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#5 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(508): Slim\Router->dispatch(Object(Slim\Http\Request))
+#6 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(432): Slim\App->dispatchRouterAndPrepareRoute(Object(Slim\Http\Request), Object(Slim\Router))
+#7 /home/appsfor9/public_html/shadowforms-apis/index.php(9): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#9 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#12 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 /home/appsfor9/public_html/shadowforms-apis/index.php(39): Slim\App->run()
+#16 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[21-Aug-2017 09:23:17 CST6CDT] Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Number of opening '[' and closing ']' does not match
+File: /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteParser/Std.php
+Line: 35
+Trace: #0 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteCollector.php(33): FastRoute\RouteParser\Std->parse('/documents[/{pa...')
+#1 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/documents[/{pa...', 'route10')
+#2 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/functions.php(24): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#3 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#4 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#5 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(508): Slim\Router->dispatch(Object(Slim\Http\Request))
+#6 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(432): Slim\App->dispatchRouterAndPrepareRoute(Object(Slim\Http\Request), Object(Slim\Router))
+#7 /home/appsfor9/public_html/shadowforms-apis/index.php(9): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#9 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#12 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 /home/appsfor9/public_html/shadowforms-apis/index.php(39): Slim\App->run()
+#16 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[21-Aug-2017 09:23:18 CST6CDT] Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Number of opening '[' and closing ']' does not match
+File: /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteParser/Std.php
+Line: 35
+Trace: #0 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteCollector.php(33): FastRoute\RouteParser\Std->parse('/documents[/{pa...')
+#1 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/documents[/{pa...', 'route10')
+#2 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/functions.php(24): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#3 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#4 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#5 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(508): Slim\Router->dispatch(Object(Slim\Http\Request))
+#6 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(432): Slim\App->dispatchRouterAndPrepareRoute(Object(Slim\Http\Request), Object(Slim\Router))
+#7 /home/appsfor9/public_html/shadowforms-apis/index.php(9): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#9 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#12 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 /home/appsfor9/public_html/shadowforms-apis/index.php(39): Slim\App->run()
+#16 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[21-Aug-2017 09:23:19 CST6CDT] Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Number of opening '[' and closing ']' does not match
+File: /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteParser/Std.php
+Line: 35
+Trace: #0 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteCollector.php(33): FastRoute\RouteParser\Std->parse('/documents[/{pa...')
+#1 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/documents[/{pa...', 'route10')
+#2 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/functions.php(24): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#3 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#4 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#5 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(508): Slim\Router->dispatch(Object(Slim\Http\Request))
+#6 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(432): Slim\App->dispatchRouterAndPrepareRoute(Object(Slim\Http\Request), Object(Slim\Router))
+#7 /home/appsfor9/public_html/shadowforms-apis/index.php(9): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#9 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#12 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 /home/appsfor9/public_html/shadowforms-apis/index.php(39): Slim\App->run()
+#16 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[21-Aug-2017 09:23:19 CST6CDT] Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Number of opening '[' and closing ']' does not match
+File: /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteParser/Std.php
+Line: 35
+Trace: #0 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteCollector.php(33): FastRoute\RouteParser\Std->parse('/documents[/{pa...')
+#1 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/documents[/{pa...', 'route10')
+#2 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/functions.php(24): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#3 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#4 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#5 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(508): Slim\Router->dispatch(Object(Slim\Http\Request))
+#6 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(432): Slim\App->dispatchRouterAndPrepareRoute(Object(Slim\Http\Request), Object(Slim\Router))
+#7 /home/appsfor9/public_html/shadowforms-apis/index.php(9): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#9 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#12 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 /home/appsfor9/public_html/shadowforms-apis/index.php(39): Slim\App->run()
+#16 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[21-Aug-2017 09:23:46 CST6CDT] Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Number of opening '[' and closing ']' does not match
+File: /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteParser/Std.php
+Line: 35
+Trace: #0 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteCollector.php(33): FastRoute\RouteParser\Std->parse('/documents[/{pa...')
+#1 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/documents[/{pa...', 'route10')
+#2 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/functions.php(24): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#3 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#4 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#5 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(508): Slim\Router->dispatch(Object(Slim\Http\Request))
+#6 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(432): Slim\App->dispatchRouterAndPrepareRoute(Object(Slim\Http\Request), Object(Slim\Router))
+#7 /home/appsfor9/public_html/shadowforms-apis/index.php(9): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#9 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#12 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 /home/appsfor9/public_html/shadowforms-apis/index.php(39): Slim\App->run()
+#16 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[21-Aug-2017 09:23:46 CST6CDT] Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Number of opening '[' and closing ']' does not match
+File: /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteParser/Std.php
+Line: 35
+Trace: #0 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/RouteCollector.php(33): FastRoute\RouteParser\Std->parse('/documents[/{pa...')
+#1 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/documents[/{pa...', 'route10')
+#2 /home/appsfor9/public_html/shadowforms-apis/vendor/nikic/fast-route/src/functions.php(24): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#3 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#4 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#5 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(508): Slim\Router->dispatch(Object(Slim\Http\Request))
+#6 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(432): Slim\App->dispatchRouterAndPrepareRoute(Object(Slim\Http\Request), Object(Slim\Router))
+#7 /home/appsfor9/public_html/shadowforms-apis/index.php(9): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#9 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Closure), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#11 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(67): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#12 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 /home/appsfor9/public_html/shadowforms-apis/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 /home/appsfor9/public_html/shadowforms-apis/index.php(39): Slim\App->run()
+#16 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+

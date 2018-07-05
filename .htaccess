@@ -1,0 +1,14 @@
+Header always set Access-Control-Allow-Origin "*"                   
+Header always set Access-Control-Max-Age: 1728000
+Header always set Access-Control-Allow-Methods "POST, GET, PUT, OPTIONS, PATCH, DELETE" 
+Header always set Access-Control-Allow-Headers "X-Accept-Charset,X-Accept,Content-Type,Range,fineform-access-token"
+Header always set Access-Control-Expose-Headers "Accept-Ranges,Content-Encoding,Content-Length,Content-Range"
+
+RewriteEngine On                  
+
+RewriteCond %{REQUEST_METHOD} OPTIONS 
+RewriteRule ^(.*)$ $1 [R=200,L,E=HTTP_ORIGIN:%{HTTP:ORIGIN}]]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
